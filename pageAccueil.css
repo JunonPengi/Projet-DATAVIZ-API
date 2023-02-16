@@ -1,0 +1,330 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/arrangement-movie-elements-bicolored-background_23-2148416802.jpg?w=826&t=st=1669719245~exp=1669719845~hmac=60def8994d4fafb2ba7e3ba790acb3705024598bc73766aa0b03bf31b49f814e");
+    background-size: cover;
+    
+    
+    
+    background-attachment: fixed;
+}
+
+div{
+    display: inline-block;
+    
+}
+
+ul{
+    float: left;
+    color: bl;
+    
+}
+h1{
+    color: azure;
+}
+
+
+
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/fr/c/c4/Logo_Avatar_2.png");
+    background-size: 100%;
+    background-position: center;
+    padding: 30px 80px;
+    border-radius: 10px;
+}
+#minuteur {
+    display: grid;
+    color: rgb(48, 153, 239);
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px;
+    margin: 10vh auto;
+    padding-top: 30%;
+}
+.box {
+    height: 70px;
+    text-align: center;
+    backdrop-filter: blur(50px);
+    background-size: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.box > div:first-child {
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 1px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+   }
+   body{
+    font-family:'Times New Roman', Times, serif;
+   }
+   
+   .titre{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+   }
+   .titre input{
+    margin: 8px 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #F2F2F2;
+   }
+   .main{
+    margin: 2%;
+   }
+   .card1{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/nK4GwlX3iEQsp4ZBkKSqbpzmYcB.jpg");
+        background-position: center;
+        background-size: cover;
+       }
+      .card2{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/bHHn3krbHyxQIWb4JbHkPlV6Uu1.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+      .card3{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/m2cY5Er1loPgHkZYdFMEz6YeiwG.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+      .card4{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/sxnkidP9iZ2Rgv5f8rtGNIpDXsF.jpg");
+        background-position: center;
+        background-size: cover;
+        }
+        .card5{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/4cLTfmwGXOjgXOavjQyCLA36hIM.jpg");
+        background-position: center;
+        background-size: cover;
+       }
+      .card6{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/gof8bWW9E7MH30GpvA97PwGiIuu.jpg");
+        background-position: center;
+        background-size: cover;
+        }
+        .card7{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/bBRlrpJm9XkNSg0YT5LCaxqoFMX.jpg");
+        background-position: center;
+        background-size: cover;
+        }
+         .card8{
+         width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/earg6TrQjXU0an5Bs0XNkUNQY5g.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+         .card9{
+          width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+        margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/tUoqeJp3E4eVuo1Ybb4YPExQ4A5.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+          .card10{
+         width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/8dCFK8FDFQbYFZvzAE9IIeaDMKo.jpg");
+         background-position: center;
+         background-size: cover;
+        }
+          .card11{
+         width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/2JMxcjkUc5SPrj8P9GCFQev4pbm.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+        .card12{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/8mXqxKaPc6FpAnLeZlPaaUaJHdC.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+        .card13{
+        width: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+        background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/nDhp0bQqHPZG64BxjlixAW9qriY.jpg");
+        background-position: center;
+        background-size: cover;
+         }
+          .card14{
+           width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/kFLXcFdok3ShDxylr3WNreQphQm.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+         .card15{
+         width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/kL0lWLJA6lbvmPM3YL0ISE6rVr6.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+         .card16{
+          width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/hOS1vYWvTTXugOWhAGXoBH7dGHN.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+         .card17{
+         width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/cgoy7t5Ve075naBPcewZrc08qGw.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+          .card18{
+         width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/kmlv5i02n3zKryBr2W3kSeWVKTD.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+          .card19{
+         width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/u08QwcFnJpMtsDEYSlbUkMuE7bP.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+         .card20{
+         width: 15%;
+         display: inline-block;
+         box-shadow: 2px 2px 20px black;
+         border-radius: 5px;
+         margin: 2%;
+         background-image: url("https://www.themoviedb.org/t/p/w235_and_h235_face/7MGLsJXn3URkYeZzqzAcgpYXFum.jpg");
+         background-position: center;
+         background-size: cover;
+         }
+
+
+
+
+   .image img{
+     width: 100%;
+     height: 290px;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+    }
+   .title{
+     text-align: center;
+     padding: 10px;
+    }
+   h2{
+     font-size: 20px;
+    }
+   .des{
+     padding: 3px;
+     text-align: center;
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 20px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+   footer{
+    text-align: center;
+   }
